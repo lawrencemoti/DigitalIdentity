@@ -1,0 +1,17 @@
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\bin\Debug\net8.0\ApplicationCore.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

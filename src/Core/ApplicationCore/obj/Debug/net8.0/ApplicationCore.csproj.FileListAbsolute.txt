@@ -1,0 +1,14 @@
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\bin\Debug\net8.0\ApplicationCore.runtimeconfig.json
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.genruntimeconfig.cache
