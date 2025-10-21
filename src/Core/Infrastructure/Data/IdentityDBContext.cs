@@ -11,18 +11,23 @@ namespace Infrastructure.Data
         }
 
         public DbSet<Identity> Identities { get; set; }
+        public DbSet<IdentityVerification> Verifications => Set<IdentityVerification>();
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder b)
         {
-            base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(b);
             // Additional configuration if needed
 
-            modelBuilder.Entity<Identity>(entity =>
-            {
-                entity.HasKey(e => e.IdentityNumber);
-                entity.Property(e => e.FirstName).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.Surname).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.IdentityNumber).IsRequired().HasMaxLength(13);
+            b.Entity<Identity>(e => {
+                e.HasKey(x => x.Id);
+                e.HasIndex(e => e.IdentityNumber).IsUnique();
+                e.Property(x => x.Status).HasConversion<string>();
+                e.HasMany(x => x.Verifications).WithOne(v => v.Identity).HasForeignKey(v => v.IdentityId);
+            });
+
+            b.Entity<IdentityVerification>(e => {
+                e.HasKey(x => x.Id);
+                e.Property(x => x.Status).HasConversion<string>();
             });
         }
     }

@@ -12,3 +12,4 @@ C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\Appli
 C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
 C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\bin\Debug\net8.0\ApplicationCore.runtimeconfig.json
 C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.genruntimeconfig.cache
+C:\Projects\SKY\VerificationsAPI\src\Core\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json

@@ -30,7 +30,7 @@
           "application/json",
           "text/json"
         ],
-        "StatusCode": 200
+        "StatusCode": 202
       }
     ]
   },
@@ -81,6 +81,76 @@
         "Name": "identityNumber",
         "Type": "System.Int64",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IDV.API.Controllers.WebhookController",
+    "Method": "RegisterVendor",
+    "RelativePath": "api/Webhook/vendor/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "IDV.API.APIModels.WebhookApi.Dtos.VendorDtos\u002BRegisterVendorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IDV.API.Controllers.WebhookController",
+    "Method": "DeregisterVendor",
+    "RelativePath": "api/Webhook/vendor/vendorId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int64",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

@@ -150,3 +150,10 @@ C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\obj\Debug\net8.0\IDV.API.MvcAp
 C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\AWSSDK.Core.dll
 C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\AWSSDK.SecretsManager.dll
 C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\AWSSDK.SimpleNotificationService.dll
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\obj\Debug\net8.0\IDV.API.sourcelink.json
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+C:\Projects\SKY\VerificationsAPI\src\APIs\IDV.API\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll

@@ -1,21 +1,24 @@
-using ApplicationCore.Contracts.Infrastructure;
-using ApplicationCore.Mappings;
-using Infrastructure.Data;
-using Infrastructure.IDVAPIs;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
-using System.Reflection;
-using AutoMapper;
-using ApplicationCore.Contracts.Core;
-using ApplicationCore.Services;
-
 //AWS 
 using Amazon;
 using Amazon.SecretsManager;
 using Amazon.SecretsManager.Model;
 using Amazon.SimpleNotificationService;
 using Amazon.SimpleNotificationService.Model;
+using ApplicationCore.Contracts.Core;
+using ApplicationCore.Contracts.Infrastructure;
+using ApplicationCore.Mappings;
+using ApplicationCore.Services;
+using AutoMapper;
+using Infrastructure.Data;
+using Infrastructure.IDVAPIs;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
+using MySqlConnector;
+using System;
+using System.Reflection;
+using System.Text.Json;
+using static Infrastructure.Data.DbConnStrings;
 
 namespace IDV.API;
 
@@ -28,17 +31,31 @@ public class Startup
 
     public IConfiguration Configuration { get; }
 
+    // DB secret
+    private readonly string secretArn = Environment.GetEnvironmentVariable("DB_SECRET_ARN")!;       
+    // AWS Secrets Manager client
+    private readonly IAmazonSecretsManager sm = new AmazonSecretsManagerClient(RegionEndpoint.AFSouth1);
+
     // This method gets called by the runtime. Use this method to add services to the container
     public void ConfigureServices(IServiceCollection services)
     {
+        var sec = sm.GetSecretValueAsync(new GetSecretValueRequest { SecretId = secretArn })
+            .GetAwaiter().GetResult();
+        
+        var creds = sec.SecretString is not null
+            ? JsonSerializer.Deserialize<DbSecret>(sec.SecretString)
+            : null;
+
         // Register MySqlConnection for Aurora MySQL
-        //services.AddDbContext<IdentityDBContext>(options =>
-        //options.UseMySql(Configuration.GetConnectionString("AuroraMySql"),
-        //        ServerVersion.AutoDetect(Configuration.GetConnectionString("AuroraMySql"))));
+        services.AddDbContext<IdentityDBContext>(opt =>
+            opt.UseMySql($"server={creds!.host};port={creds.port};database={creds.dbname};user={creds.username};password={creds.password}",
+            ServerVersion.AutoDetect($"server={creds!.host};port={creds.port}")));
+        
+        services.AddSingleton<IAmazonSimpleNotificationService>(
+            new AmazonSimpleNotificationServiceClient(RegionEndpoint.AFSouth1));
 
         services.AddHttpClient<IIdentityVerificationAgent, IdentityVerificationAgent>(c =>
         {
-            c.BaseAddress = new Uri(Configuration["DatanamixAPI:BaseUrl"]);
             c.DefaultRequestHeaders.Add("Accept", "application/json");
         });
 
@@ -78,4 +95,5 @@ public class Startup
             });
         });
     }
+
 }

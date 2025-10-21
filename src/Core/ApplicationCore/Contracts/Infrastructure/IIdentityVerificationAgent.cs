@@ -9,8 +9,8 @@ namespace ApplicationCore.Contracts.Infrastructure
 {
     public interface IIdentityVerificationAgent
     {
-        public Task<Identity> GetCachedProfileFromVendor(long identityNumber);
+        public Task<Identity> VerifyIdentityWithProviderSource(Guid identityId, CancellationToken ct);
 
-        public Task<Identity> RealTimeIDVCheck(long identityNumber);
+        public Task<Identity> VerifyIdentityWithDHA(Guid identityId, CancellationToken ct);
     }
 }

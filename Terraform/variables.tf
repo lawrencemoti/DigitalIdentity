@@ -31,7 +31,7 @@ variable "private_db_subnets" {
 
 variable "db_name" {
   type    = string
-  default = "identitydb"
+  default = "DigitalIdentityDb"
 }
 variable "db_username" {
   type    = string

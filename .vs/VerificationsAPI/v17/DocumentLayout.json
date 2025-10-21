@@ -1,40 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\SKY\\VerificationsAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{358AF93A-E51C-8BDD-4F32-339893B2801B}|src\\APIs\\IDV.API\\IDV.API.csproj|c:\\projects\\sky\\verificationsapi\\src\\apis\\idv.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{358AF93A-E51C-8BDD-4F32-339893B2801B}|src\\APIs\\IDV.API\\IDV.API.csproj|solutionrelative:src\\apis\\idv.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCDD0DD5-9300-4340-B178-E3801AC4DC46}|src\\Core\\ApplicationCore\\ApplicationCore.csproj|c:\\projects\\sky\\verificationsapi\\src\\core\\applicationcore\\services\\idvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDD0DD5-9300-4340-B178-E3801AC4DC46}|src\\Core\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\core\\applicationcore\\services\\idvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{358AF93A-E51C-8BDD-4F32-339893B2801B}|src\\APIs\\IDV.API\\IDV.API.csproj|c:\\projects\\sky\\verificationsapi\\src\\apis\\idv.api\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AF93A-E51C-8BDD-4F32-339893B2801B}|src\\APIs\\IDV.API\\IDV.API.csproj|solutionrelative:src\\apis\\idv.api\\controllers\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{358AF93A-E51C-8BDD-4F32-339893B2801B}|src\\APIs\\IDV.API\\IDV.API.csproj|c:\\projects\\sky\\verificationsapi\\src\\apis\\idv.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{358AF93A-E51C-8BDD-4F32-339893B2801B}|src\\APIs\\IDV.API\\IDV.API.csproj|solutionrelative:src\\apis\\idv.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9C59A74-89DD-462A-B864-D681AE4F33BB}|src\\Core\\Infrastructure\\Infrastructure.csproj|c:\\projects\\sky\\verificationsapi\\src\\core\\infrastructure\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C59A74-89DD-462A-B864-D681AE4F33BB}|src\\Core\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\core\\infrastructure\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCDD0DD5-9300-4340-B178-E3801AC4DC46}|src\\Core\\ApplicationCore\\ApplicationCore.csproj|c:\\projects\\sky\\verificationsapi\\src\\core\\applicationcore\\models\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDD0DD5-9300-4340-B178-E3801AC4DC46}|src\\Core\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\core\\applicationcore\\models\\identity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9C59A74-89DD-462A-B864-D681AE4F33BB}|src\\Core\\Infrastructure\\Infrastructure.csproj|c:\\projects\\sky\\verificationsapi\\src\\core\\infrastructure\\idvapis\\identityverificationagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C59A74-89DD-462A-B864-D681AE4F33BB}|src\\Core\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\core\\infrastructure\\idvapis\\identityverificationagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCDD0DD5-9300-4340-B178-E3801AC4DC46}|src\\Core\\ApplicationCore\\ApplicationCore.csproj|c:\\projects\\sky\\verificationsapi\\src\\core\\applicationcore\\models\\infrastructure\\datanamix\\homeaffairsidvcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDD0DD5-9300-4340-B178-E3801AC4DC46}|src\\Core\\ApplicationCore\\ApplicationCore.csproj|solutionrelative:src\\core\\applicationcore\\models\\infrastructure\\datanamix\\homeaffairsidvcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -42,106 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\APIs\\IDV.API\\appsettings.json",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\appsettings.json",
-              "RelativeToolTip": "src\\APIs\\IDV.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-01T13:29:00.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IDVService.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\ApplicationCore\\Services\\IDVService.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ApplicationCore\\Services\\IDVService.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\ApplicationCore\\Services\\IDVService.cs",
-              "RelativeToolTip": "src\\Core\\ApplicationCore\\Services\\IDVService.cs",
-              "ViewState": "AgIAAAYAAABAMzMzM3MvwBkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T13:22:50.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Identity.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\ApplicationCore\\Models\\Identity.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ApplicationCore\\Models\\Identity.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\ApplicationCore\\Models\\Identity.cs",
-              "RelativeToolTip": "src\\Core\\ApplicationCore\\Models\\Identity.cs",
-              "ViewState": "AgIAAAcAAAAwZmZmZuYswA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T10:25:17.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IdentityDBContext.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\Infrastructure\\Data\\IdentityDBContext.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Infrastructure\\Data\\IdentityDBContext.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\Infrastructure\\Data\\IdentityDBContext.cs",
-              "RelativeToolTip": "src\\Core\\Infrastructure\\Data\\IdentityDBContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T10:24:25.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\Startup.cs",
-              "RelativeDocumentMoniker": "src\\APIs\\IDV.API\\Startup.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\Startup.cs",
-              "RelativeToolTip": "src\\APIs\\IDV.API\\Startup.cs",
-              "ViewState": "AgIAADsAAAAAZmZmZmYawEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T09:22:27.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeAffairsIDVCheck.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\ApplicationCore\\Models\\Infrastructure\\Datanamix\\HomeAffairsIDVCheck.cs",
-              "RelativeDocumentMoniker": "src\\Core\\ApplicationCore\\Models\\Infrastructure\\Datanamix\\HomeAffairsIDVCheck.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\ApplicationCore\\Models\\Infrastructure\\Datanamix\\HomeAffairsIDVCheck.cs",
-              "RelativeToolTip": "src\\Core\\ApplicationCore\\Models\\Infrastructure\\Datanamix\\HomeAffairsIDVCheck.cs",
-              "ViewState": "AgIAABUAAAAAMTMzM7McwBsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T18:00:09.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IdentityController.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\Controllers\\IdentityController.cs",
-              "RelativeDocumentMoniker": "src\\APIs\\IDV.API\\Controllers\\IdentityController.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\Controllers\\IdentityController.cs",
-              "RelativeToolTip": "src\\APIs\\IDV.API\\Controllers\\IdentityController.cs",
-              "ViewState": "AgIAAAYAAACAZmZmZmYEwA4AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:08:31.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IdentityVerificationAgent.cs",
-              "DocumentMoniker": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\Infrastructure\\IDVAPIs\\IdentityVerificationAgent.cs",
-              "RelativeDocumentMoniker": "src\\Core\\Infrastructure\\IDVAPIs\\IdentityVerificationAgent.cs",
-              "ToolTip": "C:\\Projects\\SKY\\VerificationsAPI\\src\\Core\\Infrastructure\\IDVAPIs\\IdentityVerificationAgent.cs",
-              "RelativeToolTip": "src\\Core\\Infrastructure\\IDVAPIs\\IdentityVerificationAgent.cs",
-              "ViewState": "AgIAAAoAAAAAzczMzIwjwBMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:46:34.685Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

@@ -6,12 +6,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ApplicationCore.Enumerators.Enum;
 
 namespace ApplicationCore.Models
 {
     public class Identity
     {
-        public long IdentityNumber { get; set; } = default!;
+        public Guid Id { get; set; } = Guid.NewGuid();
+
+        [Required] public long IdentityNumber { get; set; } = default!;
 
         public string FirstName { get; set; } = default!;
 
@@ -19,7 +22,7 @@ namespace ApplicationCore.Models
 
         public string Surname { get; set; } = default!;
 
-        public string Status { get; set; } = "PENDING"; // PENDING, VALIDATED, FAILED
+        public IdentityStatus Status { get; set; } = IdentityStatus.Pending; // PENDING, VALIDATED, FAILED
 
         public string? DeceasedStatus { get; set; }
 
@@ -44,6 +47,10 @@ namespace ApplicationCore.Models
         public string CountryOfBirth { get; set; }
 
         public string Citizenship { get; set; }
+
+        public string? CallbackUrl { get; set; }
+
+        public ICollection<IdentityVerification> Verifications { get; set; } = new List<IdentityVerification>();
 
         public Identity()
         {
