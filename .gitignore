@@ -6,6 +6,14 @@
 # dotenv files
 .env
 
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+#Ignore any .tfvars files that are generated automatically for each terraform run.Most
+#.tfvars are managed as part of the coniguration and so should be included in version control
+# example .tfvars
+
 # User-specific files
 *.rsuser
 *.suo
