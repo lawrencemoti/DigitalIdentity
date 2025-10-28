@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8UYjq3gqPgY=",
+  "dgSpecHash": "cFSJvk6fRME=",
   "success": true,
   "projectFilePath": "C:\\Projects\\SKY\\VerificationsAPI\\src\\APIs\\IDV.API\\IDV.API.csproj",
   "expectedPackageFiles": [
@@ -69,7 +69,7 @@
     "C:\\Users\\LawrenceMoti_d6r3dzs\\.nuget\\packages\\system.text.encodings.web\\9.0.9\\system.text.encodings.web.9.0.9.nupkg.sha512",
     "C:\\Users\\LawrenceMoti_d6r3dzs\\.nuget\\packages\\system.text.json\\9.0.9\\system.text.json.9.0.9.nupkg.sha512",
     "C:\\Users\\LawrenceMoti_d6r3dzs\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\LawrenceMoti_d6r3dzs\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.20\\microsoft.netcore.app.crossgen2.win-x64.8.0.20.nupkg.sha512"
+    "C:\\Users\\LawrenceMoti_d6r3dzs\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.21\\microsoft.netcore.app.crossgen2.win-x64.8.0.21.nupkg.sha512"
   ],
   "logs": []
 }
